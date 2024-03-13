@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            display: inline;
+        }
+    
+        .li{
+            list-style-type: none;
+            float:left;
+            margin-top:20px;
+        }
+        a{
+            text-decoration: none;
+            margin-left: 50px;
+            font-size:20px;
+            color:black
+        }
+        #logo{
+             float:right;
+             height:50px;
+             width:200px;
+             margin-top:20px;
+        }
+        #hero{
+            margin-top:20px;
+            width:100%;
+        }
+        #div2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        #div3{
+            margin-top: 100px;
+            display: flex;
+            justify-content:space-around;
+        }
+        #div4{
+            border:2px solid black;
+            border-radius:5px;
+            padding: 10px;
+        }
+        #div5
+        {
+            border:2px solid black;
+            border-radius:5px;
+            padding: 10px;
+        }
+       #h4{
+        font-size: 30px;
+       }
+       #p5{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 100px;
+       }
+       #div6{
+        margin-top: 30px;
+       }
+    </style>
+</head>
+<body>
+    <script>
+        var p1=document.createElement("marquee")
+        document.body.appendChild(p1);
+        p1.innerText="50% off on first order"
+        p1.setAttribute("id","p1") 
+         var div1=document.createElement("div")
+        document.body.appendChild(div1);
+        div1.setAttribute("id","div1") 
+        var ul=document.createElement("u1")
+        document.body.appendChild(ul);
+        ul.setAttribute("id","ul")
+        var li1=document.createElement("li")
+        ul.appendChild(li1);
+        var a=document.createElement("a");
+        li1.appendChild(a);
+        a.innerText="HOME";
+        a.setAttribute("href","#")
+        li1.setAttribute("class","li")
+        var li2=document.createElement("li")
+        ul.appendChild(li2);
+        var a=document.createElement("a");
+        li2.appendChild(a);
+        a.innerText="MENU";
+        a.setAttribute("href","#")
+        li2.setAttribute("class","li")
+        var li3=document.createElement("li")
+        ul.appendChild(li3);
+        var a=document.createElement("a");
+        li3.appendChild(a);
+        a.innerText="Address";
+        a.setAttribute("href","#")
+        li3.setAttribute("class","li")
+        var li4=document.createElement("li")
+        ul.appendChild(li4);
+        li4.setAttribute("class","li")
+        var a=document.createElement("a");
+        li4.appendChild(a);
+        a.innerText="Contact Us";
+        a.setAttribute("href","#")
+        var img=document.createElement("img");
+        img.setAttribute("src","logo.jpg");
+        img.setAttribute("id","logo");
+        div1.appendChild(img);
+        var img=document.createElement("img");
+        img.setAttribute("src","hero.png");
+        img.setAttribute("id","hero");
+        document.body.appendChild(img);
+        var div2=document.createElement("div")
+        document.body.appendChild(div2);
+        div2.setAttribute("id","div2") ;
+        var img1=document.createElement("img");
+        img1.setAttribute("src","kaju.jpg");
+        img1.setAttribute("class","img1");
+        div2.appendChild(img1);
+        img1.style.width="200px"
+        img1.style.width="250px"
+        var img3=document.createElement("img");
+        img3.setAttribute("src","Paneer-Tikka.jpg");
+        img3.setAttribute("class","img1");
+        img3.style.height="300px"
+        img3.style.width="250px"
+        div2.appendChild(img3);
+        var img4=document.createElement("img");
+        img4.setAttribute("src","daddojanam.jpeg");
+        img4.setAttribute("class","img1");
+        div2.appendChild(img4);
+        var img5=document.createElement("img");
+        img5.setAttribute("src","kodi pulao.jpeg");
+        img5.setAttribute("class","img1");
+        div2.appendChild(img5);
+        var div3=document.createElement("div")
+        document.body.appendChild(div3);
+        div3.setAttribute("id","div3") ;
+        var h4=document.createElement("h4")
+        div3.appendChild(h4);
+        h4.innerText="Menu"
+        h4.setAttribute("id","h4") 
+        var div4=document.createElement("div")
+        div3.appendChild(div4);
+        div4.setAttribute("id","div4") ;
+        var p=document.createElement("p")
+        div4.appendChild(p);
+        p.innerText="Veg"
+        p.setAttribute("id","p2") 
+        var ul2=document.createElement("ul")
+        div4.appendChild(ul2);
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="Aratikaya Bajji"
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="Panasa Rolls"
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="idli vepudu"
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="daddojanam"
+        var div5=document.createElement("div")
+        div3.appendChild(div5);
+        div5.setAttribute("id","div5") ;
+        var p=document.createElement("p")
+        div5.appendChild(p);
+        p.innerText="Non-veg"
+        p.setAttribute("id","p2") 
+        var ul2=document.createElement("ul")
+        div5.appendChild(ul2);
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="Uavacharu Biryani"
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="Kodi Pulao"
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="Korameenu Tanddori"
+        var li=document.createElement("li")
+        ul2.appendChild(li);
+        li.innerText="Nelloru chapala pulusu"
+        var div6=document.createElement("div");
+        document.body.appendChild(div6);
+        div6.setAttribute("id","div6");
+        var p5=document.createElement("p")
+        div6.appendChild(p5);
+        p5.innerText="Address"
+        p5.setAttribute("id","p5")
+        var br=document.createElement("br");
+         document.body.appendChild(br);
+         var br=document.createElement("br");
+         document.body.appendChild(br);
+        var iframe=document.createElement("iframe")
+        div6.appendChild(iframe);
+        iframe.setAttribute("src","https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243625.1656811287!2d78.08567578671875!3d17.4289018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93fa68f465a5%3A0xcfe76e948e988b5c!2sUlavacharu!5e0!3m2!1sen!2sin!4v1708240819767!5m2!1sen!2sin")
+        iframe.style.marginTop="100px"
+        iframe.style.width="100%"
+        iframe.style.height="500px"
+        var contact=document.createElement("div")
+        document.body.appendChild(contact);
+        //contact.style.textAlign="center"
+        var h5=document.createElement("h5");
+        contact.appendChild(h5);
+        h5.innerText="Contact Information"
+        h5.style.fontSize="20px";
+        var p8=document.createElement("p");
+        contact.appendChild(p8);
+        p8.innerText="7974118690"
+        var p9=document.createElement("p");
+        contact.appendChild(p9);
+        p9.innerText="Copyrights 2008-24.  All Rights Reserved"
+      
+    </script>
+</body>
+</html>

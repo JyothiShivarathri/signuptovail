@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #h1{
+            color:rgb(0, 208, 255);
+            text-align: center;
+            margin-top: 100px;
+        }
+        .form{
+            text-align:center ;
+        }
+        .ip{
+            padding: 10px;
+           border:2px solid black;
+           border-radius: 10px;
+        }
+        .su{
+            margin-top: 10px;
+            width:100px;
+            height:30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+    var h1=document.createElement("h1")
+    h1.innerText="Login";
+    h1.setAttribute("id","h1");
+    document.body.appendChild(h1);
+    var form=document.createElement("form");
+    document.body.appendChild(form);
+    form.setAttribute("class","form");
+    form.setAttribute("action","interface.html");
+    var input1=document.createElement("input");
+    input1.setAttribute("type","text");
+    input1.setAttribute("placeholder","Email");
+    input1.setAttribute("class","ip");
+    form.appendChild(input1);
+    var br=document.createElement("br");
+    form.appendChild(br);
+    var br=document.createElement("br");
+    form.appendChild(br);
+    var input2=document.createElement("input");
+    input2.setAttribute("type","password");
+    input2.setAttribute("placeholder","Password");
+    input2.setAttribute("class","ip");
+    form.appendChild(input2);
+    var br=document.createElement("br");
+    form.appendChild(br);
+    var br=document.createElement("br");
+    form.appendChild(br);
+    var input3=document.createElement("input");
+    input3.setAttribute("type","submit");
+    input3.setAttribute("value","Submit");
+    form.appendChild(input3);
+    input3.setAttribute("class","su");
+     </script>
+</body>
+</html>

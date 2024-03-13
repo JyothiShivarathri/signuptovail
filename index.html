@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #h1{
+            color:rgb(0, 208, 255);
+            text-align: center;
+            margin-top: 100px;
+        }
+        .form{
+            text-align:center ;
+          
+        }
+        .ip{
+           padding: 10px;
+           border:2px solid black;
+           border-radius: 10px;
+        }
+        .su{
+            margin-top: 10px;
+            width:100px;
+            height:30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var h1=document.createElement("h1")
+        h1.innerText="Sign Up";
+        h1.setAttribute("id","h1");
+        document.body.appendChild(h1);
+        var form=document.createElement("form");
+        document.body.appendChild(form);
+        form.setAttribute("class","form");
+        var input1=document.createElement("input");
+        input1.setAttribute("type","text");
+        input1.setAttribute("placeholder","First Name");
+        input1.setAttribute("class","ip");
+        form.appendChild(input1);
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var input2=document.createElement("input");
+        input2.setAttribute("type","text");
+        input2.setAttribute("placeholder","Last Name");
+        form.appendChild(input2);
+        input2.setAttribute("class","ip");
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var input3=document.createElement("input");
+        input3.setAttribute("type","text");
+        input3.setAttribute("placeholder","E-mail");
+        form.appendChild(input3);
+        input3.setAttribute("class","ip");
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var input4=document.createElement("input");
+        input4.setAttribute("type","password");
+        input4.setAttribute("placeholder","Password");
+        form.appendChild(input4);
+        input4.setAttribute("class","ip");
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var p=document.createElement("p");
+        form.appendChild(p);
+        p.style.display="inline"
+        p.innerText="Already Registered?";
+        var a=document.createElement("a");
+        form.appendChild(a);
+        a.innerText="login"
+        a.setAttribute("href","login.html")
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var br=document.createElement("br");
+        form.appendChild(br);
+        var a=document.createElement("a");
+        form.appendChild(a);
+        a.setAttribute("href","login.html")
+        var input5=document.createElement("input");
+        input5.setAttribute("type","button");
+        input5.setAttribute("value","Register");
+        a.appendChild(input5);
+        input5.setAttribute("class","su");
+    </script>
+</body>
+</html>

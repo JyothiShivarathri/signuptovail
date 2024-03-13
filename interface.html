@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            margin-top: 100px;
+             text-align: center;
+             padding: 10px;
+             font-size: 30px;
+        }
+        .su{
+            margin-left:380px;
+            height: 30px;
+            width:100px;
+            border-radius: 10px;
+            color:white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var p=document.createElement("p");
+        document.body.appendChild(p);
+        p.innerText="Where you want to go?";
+        p.setAttribute("id","para");
+        var a=document.createElement("a");
+        document.body.appendChild(a);
+        a.setAttribute("href","cards.html")
+        var input5=document.createElement("input");
+        input5.setAttribute("type","button");
+        input5.setAttribute("value","Cards");
+        a.appendChild(input5)
+        input5.setAttribute("class","su");
+        
+        var a=document.createElement("a");
+        document.body.appendChild(a);
+        a.setAttribute("href","resturent.html")
+        var input6=document.createElement("input");
+        input6.setAttribute("type","button");
+        input6.setAttribute("value","Resturent");
+        document.body.appendChild(input6);
+        a.appendChild(input6)
+        input6.setAttribute("class","su");
+    </script>
+</body>
+</html>

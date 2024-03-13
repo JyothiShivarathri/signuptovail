@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            
+        }
+        .container1{
+            display:flex;
+            justify-content: space-around;
+           margin-bottom: 20px;
+            
+        }
+        .h1{
+            text-align: center;
+        }
+        .div{
+            height:310px;
+            width:250px;
+            border:2px solid black;
+            padding: 10px;
+            border-radius:10px;
+            background-color: bisque;
+        }
+        .img{
+            height: 200px;
+            width:200px
+        }
+        .button{
+            color:white;
+            background-color: black;
+            height:20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        
+        var h1=document.createElement("h1")
+        document.body.appendChild(h1);
+        h1.innerText="Telangana Famous Food"
+        h1.setAttribute("class","h1")
+        var h2=document.createElement("h2")
+        document.body.appendChild(h2);
+        h2.innerText="Beyond Biryani"
+        h2.setAttribute("class","h1")
+        var container=document.createElement("div")
+        document.body.appendChild(container);
+        container.setAttribute("class","container")
+    
+        var div1=document.createElement("div")
+        container.appendChild(div1);
+        div1.setAttribute("class","div")
+        var img=document.createElement("img")
+        div1.appendChild(img)
+        img.setAttribute('src',"Sarva-pindi-recipe.jpg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div1.appendChild(p);
+        p.innerText="Sarva Pindi is an excellent choice as it is cooked with at least one component of each stage of the food pyramid."
+        var a=document.createElement("a");
+        div1.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        var div2=document.createElement("div")
+       container.appendChild(div2)
+       
+       var img=document.createElement("img")
+        div2.appendChild(img)
+        img.setAttribute('src',"./p1.png")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div2.appendChild(p);
+        p.innerText="Pachi Pulusu is a stew made with tamarind juice,onions,dried red chilies,cumin seeds,curry leaves"
+        var a=document.createElement("a");
+        div2.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        div2.setAttribute("class","div")
+        var div3=document.createElement("div")
+       container.appendChild(div3)
+        div3.setAttribute("class","div")
+        var img=document.createElement("img")
+        div3.appendChild(img)
+        img.setAttribute('src',"Sa.jpg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div3.appendChild(p);
+        p.innerText="Sakinalu is made of rice flour seasoned with small amounts ofspices,sesame,carom seeds,and salt."
+        var a=document.createElement("a");
+        div3.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        var div4=document.createElement("div")
+        container.appendChild(div4)
+        div4.setAttribute("class","div")
+
+        var img=document.createElement("img")
+        div4.appendChild(img)
+        img.setAttribute('src',"gm.jpg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div4.appendChild(p);
+        p.innerText="Golichina roughly translated means “fry” in Telugu."
+        var a=document.createElement("a");
+        div4.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        var container1=document.createElement("div")
+        document.body.appendChild(container1);
+        container1.setAttribute("class","container")
+        var div5=document.createElement("div")
+        container1.appendChild(div5)
+        div5.setAttribute("class","div");
+        var img=document.createElement("img")
+        div5.appendChild(img)
+        img.setAttribute('src',"q.jpg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div5.appendChild(p);
+        p.innerText=" Qubani Ka Meetha is a luscious and indulgent dessert with a special place in Telangana's culinary repertoire."
+        var a=document.createElement("a");
+        div5.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        var div6=document.createElement("div")
+        container1.appendChild(div6)
+        div6.setAttribute("class","div");
+        var img=document.createElement("img")
+        div6.appendChild(img)
+        img.setAttribute('src',"j.jpeg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div6.appendChild(p);
+        p.innerText="Jonna Rotte is a nutritious flatbread made from jowar (sorghum) flour. It is a staple food in rural Telangana."
+        var a=document.createElement("a");
+        div6.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        var div7=document.createElement("div")
+        container1.appendChild(div7)
+        div7.setAttribute("class","div");
+        var img=document.createElement("img")
+        div7.appendChild(img)
+        img.setAttribute('src',"u.jpg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div7.appendChild(p);
+        p.innerText="Uppudu pindi is basically upma prepared with rice rava / coarse cream of rice."
+        var a=document.createElement("a");
+        div7.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+        var div8=document.createElement("div")
+        container1.appendChild(div8)
+        div8.setAttribute("class","div");
+        var img=document.createElement("img")
+        div8.appendChild(img)
+        img.setAttribute('src',"g.jpg")
+        img.setAttribute("class","img")
+        var p=document.createElement("p")
+        div8.appendChild(p);
+        p.innerText="Gongura Chutney is a popular and tangy condiment that holds a special place in Telangana cuisine."
+        var a=document.createElement("a");
+        div8.appendChild(a);
+        a.setAttribute("href","loading.html")
+        var button=document.createElement("input")
+        a.appendChild(button)
+        button.setAttribute("type","button");
+        button.setAttribute("value","see more");
+        button.setAttribute("class","button");
+    </script>
+</body>
+</html>
